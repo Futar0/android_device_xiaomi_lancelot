@@ -14,6 +14,8 @@ $(call inherit-product, device/xiaomi/lancelot/device.mk)
 # Inherit some common Spark OS stuff.
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 WITH_GAPPS := true
+ro.spark.status=UnOfficial
+ro.spark.maintainer=Futar0
 
 PRODUCT_NAME := spark_lancelot
 PRODUCT_DEVICE := lancelot
