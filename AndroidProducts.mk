@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cipher_lancelot.mk
+    $(LOCAL_DIR)/aosp_lancelot.mk
 
 COMMON_LUNCH_CHOICES := \
-    cipher_lancelot-user \
-    cipher_lancelot-userdebug \
-    cipher_lancelot-eng
+    aosp_lancelot-user \
+    aosp_lancelot-userdebug \
+    aosp_lancelot-eng
