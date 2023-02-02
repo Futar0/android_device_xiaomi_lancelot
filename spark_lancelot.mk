@@ -11,8 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/lancelot/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common Spark OS stuff.
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
+WITH_GAPPS := true
 
 PRODUCT_NAME := spark_lancelot
 PRODUCT_DEVICE := lancelot
