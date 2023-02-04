@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/lancelot/device.mk)
 
 # Inherit some common Spark OS stuff.
-$(call inherit-product, vendor/bootleg/config/common_full_phone.mk)
+$(call inherit-product, vendor/bootleg/config/common.mk)
 
 PRODUCT_NAME := bootleg_lancelot
 PRODUCT_DEVICE := lancelot
